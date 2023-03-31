@@ -1,0 +1,60 @@
+:root{
+    --color1: #F2B5D4;
+    --color2: #F7D6E0;
+    --color3: #EFF7F6;
+    --color4: #B2F7EF;
+    --color5: #7bdff2;
+}
+
+
+
+
+@font-face {
+    font-family: "fox";
+    src: url(assets/fonts/fox\ in\ the\ snow.ttf);
+}
+@font-face {
+    font-family: "arima";
+    src: url(assets/fonts/Arima-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "abril";
+    src: url(assets/fonts/AbrilFatface-Regular.ttf);
+}
+
+
+
+body{
+    background-image: url(assets/img/fondo.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.content{
+    background-color: rgba(255, 186, 204, 0.3);
+    border-radius: 5px;
+    width: 950px;
+    line-height: 1;
+    position: absolute;
+    backdrop-filter: blur(15px);
+    color: #5b373a;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+    z-index: 2;
+    padding: 20px;
+}
+
+.foto{
+    border-radius: 100%;
+    width: 100px;
+    justify-content: center;
+}
+
+
+
